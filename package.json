@@ -1,0 +1,28 @@
+{
+  "name": "kl_open_api",
+  "version": "1.0.0",
+  "description": "自动生成，随时更新",
+  "scripts": {
+    "start": "gitbook serve",
+    "deploy": "node_modules/.bin/gulp deploy",
+    "summary": "node_modules/.bin/book sm"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "open_api"
+  ],
+
+  "author": "feihide",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "data.task": "^3.1.0",
+    "del": "^2.2.0",
+    "gitbook-summary": "*",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4",
+    "ramda": "^0.22.1"
+  }
+}
