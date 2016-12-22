@@ -23,6 +23,7 @@
     "gitbook-summary": "*",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.4",
-    "ramda": "^0.22.1"
+    "ramda": "^0.22.1",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
   }
 }
